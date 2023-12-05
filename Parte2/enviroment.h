@@ -5,16 +5,15 @@
 #ifndef EXAMEN_TEMA3_ENVIROMENT_H
 #define EXAMEN_TEMA3_ENVIROMENT_H
 #include <iostream>
-#include <studio.h>
 #include <string>
 #include <vector>
 #include <string>
 #include <map>
 
-class Environment {
+class Enviroment {
 public:
     // Constructor
-    Environment();
+    Enviroment();
 
     void insert(const std::string& symbol, int value);
 
