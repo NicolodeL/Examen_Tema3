@@ -13,4 +13,4 @@ Respuestas Parte 1:
 -b) Convierte un objeto Variant a una cadena JSON
 
 ¿Qué función cumple el método from_json_string() en la clase Variant?
--b) Convierte un objeto Variant a una cadena JSON
+-a) Convierte una cadena JSON en un objeto Variant
