@@ -19,6 +19,8 @@ public:
 
     int getSymbolValue(const std::string& symbol) const;
 
+    int lookup(const std::string& symbol) const;
+
 private:
     std::map<std::string, int> symbolTable;
 };
