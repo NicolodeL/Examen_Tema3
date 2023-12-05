@@ -7,5 +7,6 @@ add_executable(Parte2 "Parte2/main.cpp"
         "Parte2/enviroment.cpp"
         "Parte2/insert.cpp"
         Parte2/lookup.cpp
+        Parte2/excepciones.cpp
 
 )
