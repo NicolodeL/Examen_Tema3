@@ -8,11 +8,18 @@
 int main() {
     Environment env;
 
-    // Insertar símbolos al entorno
     env.insert("x", 10);
     env.insert("y", 20);
 
+    env.insert("x", 40);
 
+    int valueX = env.getSymbolValue("x");
+    int valueY = env.getSymbolValue("y");
+
+    std::cout << "Valor de x: " << valueX << std::endl;
+    std::cout << "Valor de y: " << valueY << std::endl;
+
+    return 0;
 
     return 0;
 }
