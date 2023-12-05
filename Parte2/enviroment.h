@@ -21,7 +21,19 @@ public:
 
     int lookup(const std::string& symbol) const;
 
-    
+    class DuplicateSymbolException : public std::runtime_error {
+    public:
+        DuplicateSymbolException(const std::string& symbol)
+                : std::runtime_error("Intento de insertar un simbolo duplicado: " + symbol) {}
+    };
+
+    class SymbolNotFoundException : public std::runtime_error {
+    public:
+        SymbolNotFoundException(const std::string& symbol)
+                : std::runtime_error("Intento de acceder a un simbolo no existente: " + symbol) {}
+    };
+
+
 
 private:
     std::map<std::string, int> symbolTable;
