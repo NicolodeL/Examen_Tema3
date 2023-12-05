@@ -8,5 +8,7 @@ add_executable(Parte2 "Parte2/main.cpp"
         "Parte2/insert.cpp"
         Parte2/lookup.cpp
         Parte2/excepciones.cpp
+        Parte2/variant.cpp
+        Parte2/variant.h
 
 )

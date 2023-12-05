@@ -79,6 +79,12 @@ build CMakeFiles/Parte2.dir/Parte2/excepciones.cpp.obj: CXX_COMPILER__Parte2_uns
   OBJECT_DIR = CMakeFiles\Parte2.dir
   OBJECT_FILE_DIR = CMakeFiles\Parte2.dir\Parte2
 
+build CMakeFiles/Parte2.dir/Parte2/variant.cpp.obj: CXX_COMPILER__Parte2_unscanned_Debug C$:/Users/nicol/OneDrive/Documents/GitHub/Examen_Tema3/Parte2/variant.cpp || cmake_object_order_depends_target_Parte2
+  DEP_FILE = CMakeFiles\Parte2.dir\Parte2\variant.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Parte2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Parte2.dir\Parte2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Parte2
@@ -87,7 +93,7 @@ build CMakeFiles/Parte2.dir/Parte2/excepciones.cpp.obj: CXX_COMPILER__Parte2_uns
 #############################################
 # Link the executable Parte2.exe
 
-build Parte2.exe: CXX_EXECUTABLE_LINKER__Parte2_Debug CMakeFiles/Parte2.dir/Parte2/main.cpp.obj CMakeFiles/Parte2.dir/Parte2/enviroment.cpp.obj CMakeFiles/Parte2.dir/Parte2/insert.cpp.obj CMakeFiles/Parte2.dir/Parte2/lookup.cpp.obj CMakeFiles/Parte2.dir/Parte2/excepciones.cpp.obj
+build Parte2.exe: CXX_EXECUTABLE_LINKER__Parte2_Debug CMakeFiles/Parte2.dir/Parte2/main.cpp.obj CMakeFiles/Parte2.dir/Parte2/enviroment.cpp.obj CMakeFiles/Parte2.dir/Parte2/insert.cpp.obj CMakeFiles/Parte2.dir/Parte2/lookup.cpp.obj CMakeFiles/Parte2.dir/Parte2/excepciones.cpp.obj CMakeFiles/Parte2.dir/Parte2/variant.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Parte2.dir
