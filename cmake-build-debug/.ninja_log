@@ -1,4 +1,6 @@
 # ninja log v5
-1	191	7234737061409815	build.ninja	4c28ee4c71a52c93
+1	191	7234738507415492	build.ninja	4c28ee4c71a52c93
 0	272	7234735578547895	CMakeFiles/Parte2.dir/Parte2/main.cpp.obj	ed1ce7cd6153aee6
 274	398	7234735579681790	Parte2.exe	5bcea11f6a9bc641
+3	260	7234738608039529	CMakeFiles/Parte2.dir/Parte2/main.cpp.obj	ed1ce7cd6153aee6
+11	268	7234738608110594	CMakeFiles/Parte2.dir/Parte2/enviroment.cpp.obj	d0be9eb95833a07b
