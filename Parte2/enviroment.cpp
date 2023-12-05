@@ -10,6 +10,5 @@ public:
 
     }
 
-private:
     std::map<std::string, int> symbolTable;
 };
