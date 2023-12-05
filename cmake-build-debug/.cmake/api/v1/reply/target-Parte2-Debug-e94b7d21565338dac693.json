@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Ejercicio_1.exe"
+			"path" : "Parte2.exe"
 		},
 		{
-			"path" : "Ejercicio_1.pdb"
+			"path" : "Parte2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "Ejercicio_1::@6890427a1f51a3e7e1df",
+	"id" : "Parte2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Ejercicio_1",
-	"nameOnDisk" : "Ejercicio_1.exe",
+	"name" : "Parte2",
+	"nameOnDisk" : "Parte2.exe",
 	"paths" : 
 	{
 		"build" : ".",

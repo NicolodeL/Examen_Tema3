@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/nicol/OneDrive/Documents/GitHub/Examen_Tema3/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Ejercicio_1
+# Object build statements for EXECUTABLE target Parte2
 
 
 #############################################
-# Order-only phony target for Ejercicio_1
+# Order-only phony target for Parte2
 
-build cmake_object_order_depends_target_Ejercicio_1: phony || CMakeFiles/Ejercicio_1.dir
+build cmake_object_order_depends_target_Parte2: phony || CMakeFiles/Parte2.dir
 
-build CMakeFiles/Ejercicio_1.dir/Parte2/main.cpp.obj: CXX_COMPILER__Ejercicio_1_unscanned_Debug C$:/Users/nicol/OneDrive/Documents/GitHub/Examen_Tema3/Parte2/main.cpp || cmake_object_order_depends_target_Ejercicio_1
-  DEP_FILE = CMakeFiles\Ejercicio_1.dir\Parte2\main.cpp.obj.d
+build CMakeFiles/Parte2.dir/Parte2/main.cpp.obj: CXX_COMPILER__Parte2_unscanned_Debug C$:/Users/nicol/OneDrive/Documents/GitHub/Examen_Tema3/Parte2/main.cpp || cmake_object_order_depends_target_Parte2
+  DEP_FILE = CMakeFiles\Parte2.dir\Parte2\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Ejercicio_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ejercicio_1.dir\Parte2
+  OBJECT_DIR = CMakeFiles\Parte2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Parte2.dir\Parte2
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Ejercicio_1
+# Link build statements for EXECUTABLE target Parte2
 
 
 #############################################
-# Link the executable Ejercicio_1.exe
+# Link the executable Parte2.exe
 
-build Ejercicio_1.exe: CXX_EXECUTABLE_LINKER__Ejercicio_1_Debug CMakeFiles/Ejercicio_1.dir/Parte2/main.cpp.obj
+build Parte2.exe: CXX_EXECUTABLE_LINKER__Parte2_Debug CMakeFiles/Parte2.dir/Parte2/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Ejercicio_1.dir
+  OBJECT_DIR = CMakeFiles\Parte2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Ejercicio_1.exe
-  TARGET_IMPLIB = libEjercicio_1.dll.a
-  TARGET_PDB = Ejercicio_1.exe.dbg
+  TARGET_FILE = Parte2.exe
+  TARGET_IMPLIB = libParte2.dll.a
+  TARGET_PDB = Parte2.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Ejercicio_1: phony Ejercicio_1.exe
+build Parte2: phony Parte2.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build Ejercicio_1: phony Ejercicio_1.exe
 #############################################
 # Folder: C:/Users/nicol/OneDrive/Documents/GitHub/Examen_Tema3/cmake-build-debug
 
-build all: phony Ejercicio_1.exe
+build all: phony Parte2.exe
 
 # =============================================================================
 # Built-in targets

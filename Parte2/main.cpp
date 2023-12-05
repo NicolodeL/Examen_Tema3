@@ -1,3 +1,10 @@
-//
-// Created by nicol on 05/12/2023.
-//
+#include <iostream>
+#include <string>
+#include <vector>
+#include <string>
+#include <map>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
