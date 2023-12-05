@@ -21,6 +21,8 @@ public:
 
     int lookup(const std::string& symbol) const;
 
+    
+
 private:
     std::map<std::string, int> symbolTable;
 };

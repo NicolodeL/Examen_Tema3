@@ -13,6 +13,7 @@ void Environment::insert(const std::string& symbol, int value) {
     } else {
 
         std::cout << "Advertencia: El símbolo '" << symbol << "' ya existe en el entorno." << std::endl;
+        throw DuplicateSymbolException(symbol);
     }
 }
 
