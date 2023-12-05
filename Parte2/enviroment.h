@@ -10,10 +10,10 @@
 #include <string>
 #include <map>
 
-class Enviroment {
+class Environment {
 public:
     // Constructor
-    Enviroment();
+    Environment();
 
     void insert(const std::string& symbol, int value);
 
