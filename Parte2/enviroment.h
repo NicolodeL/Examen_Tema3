@@ -4,5 +4,23 @@
 
 #ifndef EXAMEN_TEMA3_ENVIROMENT_H
 #define EXAMEN_TEMA3_ENVIROMENT_H
+#include <iostream>
+#include <studio.h>
+#include <string>
+#include <vector>
+#include <string>
+#include <map>
 
+class Environment {
+public:
+    // Constructor
+    Environment();
+
+    void insert(const std::string& symbol, int value);
+
+    int getSymbolValue(const std::string& symbol) const;
+
+private:
+    std::map<std::string, int> symbolTable;
+};
 #endif //EXAMEN_TEMA3_ENVIROMENT_H
