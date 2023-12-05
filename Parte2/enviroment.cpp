@@ -5,18 +5,25 @@
 #include <map>
 
 class enviroment {
-public:
-    enviroment() {
-        this->enviroment = std::map<std::string, std::string>();
-    }
-
-    void set(std::string key, std::string value) {
-        this->enviroment[key] = value;
-    }
-
-    std::string get(std::string key) {
-        return this->enviroment[key];
-    }
-
-
+private:
+    std::map<std::string, int> symbolTable;
 };
+
+public:
+
+    void addSymbol(const std::string& symbol, int value) {
+        symbolTable[symbol] = value;
+    }
+
+    int getSymbolValue(const std::string& symbol) const {
+        auto it = symbolTable.find(symbol);
+        if (it != symbolTable.end()) {
+            // Devolver el valor asociado al símbolo
+            return it->second;
+        } else {
+            return 0;
+        }
+
+
+}
+    }
