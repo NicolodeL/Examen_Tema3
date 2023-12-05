@@ -14,3 +14,13 @@ Respuestas Parte 1:
 
 ¿Qué función cumple el método from_json_string() en la clase Variant?
 -a) Convierte una cadena JSON en un objeto Variant
+
+Parte2:
+
+1 Estructura Básica: Se puede ver definida la clase environment en enviroment.h y enviroment.cpp
+2 Insertar Símbolos: Esta funcion esta creada en insert.cpp y definida en enviroment.h
+3 Búsqueda de Símbolos: Esta funcion esta creada en lookup.cpp y definida en enviroment.h
+4 Gestión de Errores: Esta funcion esta creada en excepciones.cpp y definida en enviroment.h, los throws de esta funcion estan dentro de los elses de insert.cpp y lookup.cpp
+
+
+
